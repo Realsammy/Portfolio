@@ -683,6 +683,8 @@ h6 { font-size: 16px; }
 	height: auto;
 	clear: both;
 	float: left;
+	display: flex;
+
 }
 .arlo_tm_button a{
 	text-decoration: none;
@@ -2027,6 +2029,14 @@ body.dark .arlo_tm_settings .cursor li .svg,
 	opacity: 1;
 }
 
+.portfolio-center{
+	margin: 30px;
+	padding: 80px;
+	display: flexbox;
+	-ms-flex-align: center;
+	align-items: center;
+
+}
 /*---------------------------------------------------*/
 /*	16) ARLO MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
