@@ -33,7 +33,7 @@ if (filter_var($php_email, FILTER_VALIDATE_EMAIL)) {
 		. '<strong style="color:#f00a77;">Message:</strong>  ' . $php_message . '<br/><br/>'
 		. 'This is a Contact Confirmation mail.'
 		. '<br/>'
-		. 'We will contact you as soon as possible .</div>';
+		. 'I will contact you as soon as possible .</div>';
 		$php_sendmessage = "<div style=\"background-color:#f5f5f5; color:#333;\">" . $php_template . "</div>";
 		
 		// message lines should not exceed 70 characters (PHP rule), so wrap it

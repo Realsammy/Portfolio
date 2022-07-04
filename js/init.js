@@ -240,7 +240,7 @@ function arlo_tm_animate_text(){
 	var animateSpan			= jQuery('.arlo_tm_animation_text_word');
 	
 	animateSpan.typed({
-		strings: ["a Freelancer", "an Enterprise Design Thinker", "a Software Developer", "a Web Developer", "a Support Specialist", "a Digital Analyst"],
+		strings: ["an IT Professional","a Freelance Software Developer", "a Web Developer"],
 		loop: true,
 		startDelay: 1e3,
 		backDelay: 2e3
